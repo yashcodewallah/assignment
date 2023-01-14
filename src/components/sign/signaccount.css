@@ -1,0 +1,77 @@
+.signAccountContainer{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* justify-content: center; */
+    width: 500px;
+    gap: 30px;
+}
+
+.signHeading{
+    font-size: 40px;
+    color: brown;
+    font-family: "Varela Round",serif;
+    font-weight: 700;
+    align-self: center;
+    margin-bottom: -10px;
+    
+}
+.error{
+    font-size: 15px;
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+}
+.signDiv{
+    font-family: "Varela Round",serif;
+    font-size: 20px;
+    display: flex;
+flex-direction: column;
+}
+.signDiv input{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+.fileIcon{
+    margin-left: 20px;
+    border: 1px solid;
+    height: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.signButtonContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.submitButton{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.back-button{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    background-color:#444;
+    color: white;
+    width: 100px;
+    border: none;
+    cursor:pointer;
+    border-radius: 10px;
+  }

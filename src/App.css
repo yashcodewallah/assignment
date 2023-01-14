@@ -1,0 +1,13 @@
+.App{
+  height: calc(100vh);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0,0, 0.8)
+  ),
+  url("./background.jpg");
+ background-size: cover;
+/*display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center; */
+}

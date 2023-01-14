@@ -1,0 +1,89 @@
+.educationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 40.5px;
+    width: 500px;
+}
+.educationHeading{
+    margin-bottom: -20px;
+}
+.educationForm h1 {
+    margin: 0px;
+    text-align: center;
+    font-family: "Varela Round", serif;
+    word-spacing: 15px;
+    color: brown;
+}
+
+.educationFormDivs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.educationFormDivs1{
+    display: flex;
+    flex-direction: column;
+}
+
+.educationFormDivs1 label {
+    /* text-align: center; */
+    font-family: "Varela Round", serif;
+    font-size: 20px;
+    /* align-self: center; */
+}
+
+.educationFormDivs1 input {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    /* border-bottom: 1px solid; */
+    padding: 5px;
+}
+
+.file-heading {
+    font-size: 20px;
+    font-family: "Varela Round", serif;
+}
+
+.file-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: center;
+    cursor: pointer;
+    /* margin-top: -19px; */
+}
+
+.inputCheckbox{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.error{
+    color: red;
+    font-size:15px;
+}
+
+
+.next-button {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

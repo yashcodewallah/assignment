@@ -1,0 +1,96 @@
+.createform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.createform h1{
+    margin: 0px;
+    /* margin-bottom: -20px; */
+    text-align: center;
+    font-family: "Varela Round",serif;
+    word-spacing: 15px;
+    color: brown;
+}
+
+
+.createformDivs1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.createformDivs1 label{
+    font-family: "Varela Round",serif;
+    font-size: 20px;
+}
+.error{
+    color: red;
+    font-size: 15px;
+}
+
+.createformDivs1 input{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    /* border-bottom: 1px solid; */
+    padding: 5px;
+}
+
+.ageDivs1{
+    display: flex;
+    gap: 60px;
+}
+.ageDivs1 h4{
+    text-align: center;
+    font-family: "Varela Round",serif;
+    font-size: 20px;
+    /* margin-right: 60px; */
+}
+.ageDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.next-button{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+  }
+  .buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .back-button{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #666;
+    color: white;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .genderDrop{
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    font-family: "Varela Round",serif;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .genderDrop option{
+    font-size: 14px;
+    font-family: "Varela Round",serif;
+  }

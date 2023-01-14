@@ -1,0 +1,31 @@
+.finalPageContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:"Varela Round", serif;
+    font-size: 20px;
+
+}
+.divs{
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.finalPageContainer li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.heading{
+   text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 800;
+    border-bottom: 5px solid white;
+    margin-bottom: 15px;
+}
